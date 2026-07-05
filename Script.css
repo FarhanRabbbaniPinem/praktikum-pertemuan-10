@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.hero{
+
+    width:100%;
+    height:100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("image(21).png");
+
+    background-size:cover;
+    background-position:center;
+}
+
+nav{
+
+    width:90%;
+    margin:auto;
+
+    padding:35px 0;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+.logo{
+
+    font-size:60px;
+    font-weight:bold;
+
+    color:#00A8FF;
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+}
+
+nav ul li{
+
+    margin-left:40px;
+}
+
+nav ul li a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:15px;
+
+    transition:.3s;
+}
+
+nav ul li a:hover{
+
+    color:orange;
+}
+
+.content{
+
+    width:100%;
+
+    margin-top:150px;
+
+    text-align:center;
+
+    color:white;
+}
+
+.content h1{
+
+    font-size:75px;
+
+    font-weight:900;
+}
+
+#genre{
+
+    color:#f7a000;
+}
+
+.content p{
+
+    margin-top:20px;
+
+    font-size:18px;
+}
+
+.btn-group{
+
+    margin-top:50px;
+}
+
+.btn{
+
+    width:180px;
+
+    height:52px;
+
+    margin:10px;
+
+    border:2px solid orange;
+
+    background:transparent;
+
+    color:white;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.4s;
+}
+
+.btn:hover{
+
+    background:orange;
+
+    color:black;
+}
